@@ -13,3 +13,42 @@ body {
     color-scheme: dark;
   }
 }
+
+
+input {
+  border: 1px solid hotpink;
+  margin-left: 2px;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  padding-inline: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+li {
+  background-color: hotpink;
+  padding: 8px;
+  color: #fff;
+}
+
+.task  {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+ 
+}
+
+.task li {
+  width: 70%;
+  background-color: lightcoral;
+}
