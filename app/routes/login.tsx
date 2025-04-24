@@ -18,7 +18,7 @@ export default function LoginPage() {
     if (data.accessToken)
     {  localStorage.setItem("access_token", data.accessToken);}
 
-    navigateTo("/redirect");
+    navigateTo("/tasks");
     
   };
 
